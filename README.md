@@ -20,7 +20,7 @@ Displays a page with each group's name and id.
 
 We use automated unit tests to prevent regressions. Check out our build below:
 
-master: [![Build Status](https://github.com/KaileySnay/groupswitches/workflows/Tests/badge.svg)](https://github.com/KaileySnay/groupswitches/actions)
+master: [![Build Status](https://github.com/kaileysnay/groupswitches/workflows/Tests/badge.svg)](https://github.com/kaileysnay/groupswitches/actions)
 
 ## License
 
