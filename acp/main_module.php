@@ -40,8 +40,10 @@ class main_module
 		$this->page_title = $language->lang('GROUP_SWITCHES');
 
 		// Grab all the groups
+		$groups_table = $phpbb_container->getParameter('tables.groups');
+
 		$sql = 'SELECT group_name, group_id
-			FROM ' . GROUPS_TABLE . '
+			FROM ' . $groups_table . '
 			ORDER BY group_name';
 		$result = $db->sql_query($sql);
 		while ($row = $db->sql_fetchrow($result))
